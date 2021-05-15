@@ -1,0 +1,51 @@
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {
+
+    font-family: "Open Sans";
+    background-color: #212529 !important
+}
+.w3-teal{
+    background-color: #212529 !important;
+    color: #e9ecef
+}
+
+.color-titulo{
+    color: #212529 !important
+}
+
+.color-mini-titulo{
+    color: #343a40 !important
+}
+/* .w3-margin{
+    margin: 5px 10px 5px 10px !important;
+} */
+.w3-teal-frase{
+    background-color: #dee2e6 !important;
+    color: #212529;
+}
+.w3-white-prsentacion{
+    background-color: #e9ecef !important;
+}
+
+.cerrar{
+    animation: cerrar 2s linear  forwards;
+}
+@keyframes cerrar {
+    0%{
+        filter: opacity(100%);
+    }
+    100%{
+        filter: opacity(0%);
+    }
+}
+.abrir{
+    animation: abrir 2s linear  forwards;
+}
+@keyframes abrir{
+    0%{
+        filter: opacity(0%);
+    }
+    100%{
+        filter: opacity(100%);
+    }
+}
